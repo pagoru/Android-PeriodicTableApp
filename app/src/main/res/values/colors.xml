@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#c94e6b</color>
+
+    <color name="black_overlay">#000000</color>
+    <color name="element_Alcalino">#c94e6b</color>
+    <color name="element_AlcalinoTerreos">#c9b54e</color>
+    <color name="element_Lantanidos">#ac4ec9</color>
+    <color name="element_Actinidos">#c94eb0</color>
+    <color name="element_MetalesDeTransicion">#4ec994</color>
+    <color name="element_OtrosMetales">#c9924e</color>
+    <color name="element_Metaloides">#5e4ec9</color>
+    <color name="element_OtrosNoMetales">#4ec950</color>
+    <color name="element_Halogenos">#c7c94e</color>
+    <color name="element_GasesNobles">#4ebfc9</color>
+</resources>

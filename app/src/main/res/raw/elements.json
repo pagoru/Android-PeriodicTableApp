@@ -1,0 +1,178 @@
+[
+  {
+    "Number" : 1,
+    "Name" : "Hidrogen",
+    "Symbol" : "H",
+
+    "Category" : "No metalls",
+    "Group" : 1,
+    "Period" : 1,
+    "Block" : "s",
+    "Weight" : 1.00794
+  },
+  {
+    "Number" : 2,
+    "Name" : "Heli",
+    "Symbol" : "He",
+
+    "Category" : "Gasos nobles",
+    "Group" : 18,
+    "Period" : 1,
+    "Block" : "s",
+    "Weight" : 4.002602
+  },
+  {
+    "Number" : 3,
+    "Name" : "Liti",
+    "Symbol" : "Li",
+
+    "Category" : "Metalls alcalins",
+    "Group" : 1,
+    "Period" : 2,
+    "Block" : "s",
+    "Weight" : 6.941
+  },
+  {
+    "Number" : 4,
+    "Name" : "Beril·li",
+    "Symbol" : "Be",
+
+    "Category" : "Metalls alcalinoterris",
+    "Group" : 2,
+    "Period" : 2,
+    "Block" : "s",
+    "Weight" : 9.012182
+  },
+  {
+    "Number" : 5,
+    "Name" : "Bor",
+    "Symbol" : "B",
+
+    "Category" : "Metal·loides",
+    "Group" : 13,
+    "Period" : 2,
+    "Block" : "p",
+    "Weight" : 10.811
+  },
+  {
+    "Number" : 6,
+    "Name" : "Carboni",
+    "Symbol" : "C",
+
+    "Category" : "No metalls",
+    "Group" : 14,
+    "Period" : 2,
+    "Block" : "p",
+    "Weight" : 12.0107
+  },
+  {
+    "Number" : 7,
+    "Name" : "Nitrogen",
+    "Symbol" : "N",
+
+    "Category" : "No metalls",
+    "Group" : 15,
+    "Period" : 2,
+    "Block" : "p",
+    "Weight" : 14.0067
+  },
+  {
+    "Number" : 8,
+    "Name" : "Oxigen",
+    "Symbol" : "O",
+
+    "Category" : "No metalls",
+    "Group" : 16,
+    "Period" : 2,
+    "Block" : "p",
+    "Weight" : 15.9994
+  },
+  {
+    "Number" : 9,
+    "Name" : "Fluor",
+    "Symbol" : "F",
+
+    "Category" : "Halògens",
+    "Group" : 17,
+    "Period" : 2,
+    "Block" : "p",
+    "Weight" : 18.9984032
+  },
+  {
+    "Number" : 10,
+    "Name" : "Neó",
+    "Symbol" : "Ne",
+
+    "Category" : "Gasos nobles",
+    "Group" : 18,
+    "Period" : 2,
+    "Block" : "p",
+    "Weight" : 20.1797
+  },
+  {
+    "Number" : 11,
+    "Name" : "Sodi",
+    "Symbol" : "Na",
+
+    "Category" : "Metalls alcalins",
+    "Group" : 1,
+    "Period" : 3,
+    "Block" : "s",
+    "Weight" : 22.98976928
+  },
+  {
+    "Number" : 12,
+    "Name" : "Magnesi",
+    "Symbol" : "Mg",
+
+    "Category" : "Metalls alcalinoterris",
+    "Group" : 2,
+    "Period" : 3,
+    "Block" : "s",
+    "Weight" : 24.3050
+  },
+  {
+    "Number" : 13,
+    "Name" : "Alumini",
+    "Symbol" : "Al",
+
+    "Category" : "Metal·loides",
+    "Group" : 13,
+    "Period" : 3,
+    "Block" : "p",
+    "Weight" : 26.9815386
+  },
+  {
+    "Number" : 14,
+    "Name" : "Silici",
+    "Symbol" : "Si",
+
+    "Category" : "Metal·loides",
+    "Group" : 14,
+    "Period" : 3,
+    "Block" : "p",
+    "Weight" : 28.0855
+  },
+  {
+    "Number" : 15,
+    "Name" : "Fòsfor",
+    "Symbol" : "P",
+
+    "Category" : "No metalls",
+    "Group" : 15,
+    "Period" : 3,
+    "Block" : "p",
+    "Weight" : 30.973762
+  },
+  {
+    "Number" : 16,
+    "Name" : "Sofre",
+    "Symbol" : "S",
+
+    "Category" : "No metalls",
+    "Group" : 16,
+    "Period" : 3,
+    "Block" : "p",
+    "Weight" : 32.065
+  }
+]
