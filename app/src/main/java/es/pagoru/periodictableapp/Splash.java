@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.support.v7.view.ContextThemeWrapper;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.ProgressBar;
 
 public class Splash extends Activity {
 
@@ -22,6 +23,8 @@ public class Splash extends Activity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_splash);
+
+        Element.loadElements(getResources());
 
         new Thread(){
 

@@ -20,6 +20,7 @@
         android:text="Joc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:id="@+id/btn_game"
         android:layout_below="@+id/btn_periodic_table"
         android:layout_alignParentLeft="true"
