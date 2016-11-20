@@ -36,7 +36,7 @@ public class PeriodicTable extends Activity {
 
         RelativeLayout[] rl_elements = {
                 (RelativeLayout)findViewById(R.id.element_1), (RelativeLayout)findViewById(R.id.element_2),
-                (RelativeLayout)findViewById(R.id.element_3), (RelativeLayout)findViewById(R.id.element_4),
+                (RelativeLayout)findViewById( R.id.element_3), (RelativeLayout)findViewById(R.id.element_4),
                 (RelativeLayout)findViewById(R.id.element_5), (RelativeLayout)findViewById(R.id.element_6),
                 (RelativeLayout)findViewById(R.id.element_7), (RelativeLayout)findViewById(R.id.element_8),
         };
@@ -65,10 +65,6 @@ public class PeriodicTable extends Activity {
 
     }
 
-    private int getRandom(int min, int max){
-        return (min + (int)(Math.random() * ((max - min))));
-    }
-
     private void randomizeElements(){
         List<Element> elements = new ArrayList<>(Element.getElements());
 
@@ -82,7 +78,7 @@ public class PeriodicTable extends Activity {
             1 - Element
             2 - Number
              */
-            int num = getRandom(0, elements.size());
+            int num = Utils.getRandom(0, elements.size());
             Element element = elements.get(num);
 
             rl_element.setBackgroundColor(getResources().getColor(element.getColor()) );

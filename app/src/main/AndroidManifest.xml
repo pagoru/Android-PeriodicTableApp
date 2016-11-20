@@ -23,7 +23,7 @@
             android:screenOrientation="landscape" />
         <activity android:name=".PeriodicTable" />
         <activity android:name=".IndividualElement" />
-        <activity android:name=".activity_game"></activity>
+        <activity android:name=".Game"></activity>
     </application>
 
 </manifest>

@@ -8,6 +8,215 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="es.pagoru.periodictableapp.activity_game">
+    tools:context="es.pagoru.periodictableapp.Game">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:stretchColumns="0,1"
+        android:id="@+id/tableLayout"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:paddingBottom="8dp"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_column="0">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="¿Quin element es l'Hidrogen?"
+                    android:ems="15"
+                    android:id="@+id/gm_question"
+                    android:textAlignment="center"
+                    android:textStyle="normal|bold"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="Errors: 0"
+                    android:ems="10"
+                    android:id="@+id/gm_mistakes"
+                    android:layout_below="@+id/gm_corects"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="Correctes: 0"
+                    android:ems="10"
+                    android:id="@+id/gm_corects"
+                    android:layout_below="@+id/gm_question"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+                android:layout_alignParentTop="true"
+                android:addStatesFromChildren="false">
+
+                <RelativeLayout
+                    android:id="@+id/gm_element_1"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:background="@color/element_Actinidos"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginRight="35dp"
+                    android:layout_marginBottom="35dp">
+
+                    <TextView
+                        android:text="N/A"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black_overlay"
+                        android:textSize="30dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginLeft="5dp" />
+
+                    <TextView
+                        android:text="0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black_overlay"
+                        android:textSize="20dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/gm_element_4"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:background="@color/element_Actinidos"
+                    android:layout_alignBaseline="@+id/gm_element_3"
+                    android:layout_alignBottom="@+id/gm_element_3"
+                    android:layout_toRightOf="@+id/gm_element_3"
+                    android:layout_toEndOf="@+id/gm_element_3">
+
+                    <TextView
+                        android:text="N/A"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black_overlay"
+                        android:textSize="30dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginLeft="5dp" />
+
+                    <TextView
+                        android:text="0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black_overlay"
+                        android:textSize="20dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/gm_element_3"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:background="@color/element_Actinidos"
+                    android:layout_below="@+id/gm_element_2"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginRight="35dp">
+
+                    <TextView
+                        android:text="N/A"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black_overlay"
+                        android:textSize="30dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginLeft="5dp" />
+
+                    <TextView
+                        android:text="0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black_overlay"
+                        android:textSize="20dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/gm_element_2"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:background="@color/element_Actinidos"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/gm_element_1"
+                    android:layout_toEndOf="@+id/gm_element_1"
+                    android:layout_marginBottom="35dp">
+
+                    <TextView
+                        android:text="N/A"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black_overlay"
+                        android:textSize="30dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginLeft="5dp" />
+
+                    <TextView
+                        android:text="0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black_overlay"
+                        android:textSize="20dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp" />
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </TableRow>
+    </TableLayout>
 
 </RelativeLayout>
